@@ -1,0 +1,323 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-style: italic;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 100px;
+    background-color: rgb(196, 51, 10);
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    
+}
+
+.intro-message h1 {
+    font-style: italic;
+}
+
+.intro-message button {
+    background-color: rgb(196, 51, 10);
+    border-radius: 100px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 20px;
+}
+
+.col-lg-5 .btn {
+    background-color: rgb(196, 51, 10);
+    border-radius: 100px;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    padding: 10px 20px;
+}
+
+@media (min-width: 576px){
+docs.min.css:7
+.bd-example {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-width: .2rem;
+}
+    
+.dropdown .btn {
+    margin-top: 4px;
+    margin-left: 10px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    padding: 5px 8px;
+}
+    
+.dropdown-menu form {
+    padding: 20px;
+    width: 350px;
+}
+    
+.intro-header .collapse {
+    background-color: rgb(248, 248, 248);
+    color: dimgrey;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    font-weight: none;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/nfl.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+img.one {
+    margin-top: 40px;
+    border-radius: 10px;
+}
+    
+.card h5 a {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-style: italic;
+    background-color: rgb(179, 179, 179);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 60px;
+}
+
+.card p {
+    font-size: 20px;
+    color : dimgrey;
+    font-family: "Libian SC";
+    letter-spacing: 1px;
+}
+    
+.card form {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.card span {
+    font-size: 15px;
+    color: rgb(196, 51, 10);
+}
+    
+.card form input {
+    display: inline-block;
+    margin: 0 10px;
+}
+    
+.card form {
+    border: 2px solid rgb(179, 179, 179);
+}
+
+    
+.selections {
+    margin-top: -50px;
+    padding: 30px;
+    border-right: 4px solid rgb(196, 51, 10);
+    border-left: 4px solid rgb(196, 51, 10);
+}
+    
+.card{
+    text-align: center;
+    margin-bottom: 20px;
+}
+    
+.card .btn {
+    margin-bottom: 20px;
+    font-size: 15px;
+    background-color: rgb(196, 51, 10);
+    color: white;
+    
+}
+
+.card img {
+    margin: 0 10px 10px;
+    border-radius: 40px;
+}
+    
+.numbers {
+    height: 400px;
+    overflow: scroll;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+    
+.numbers h3 {
+    font-style: italic;
+}
+
+.table {
+    margin-right:60px;
+    background-color: white;
+}
+
+thead tr th {
+    text-align: center;
+}
+    
+tbody tr th{
+    text-align: center;
+}
+    
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner-social-buttons {
+    margin-top: 0;
+}
+
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
+}
+    
+@media(max-width:1199px) {
+    ul.banner-social-buttons li {
+        text-align: center;
+    }
+}
+
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: rgb(179, 179, 179);
+    
+}
+
+footer li a {
+    color: white;
+}
+    
+p.copyright {
+    margin: 15px 0 0;
+}
